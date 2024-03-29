@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Party Planner</title>
+</head>
+
+<body>
+    <form id = "eventForm">
+        <fieldset>
+            <lable for = "eventname">Event Name</lable><br>
+                <input id = "eventName" type = "text" name = "eventName">
+            <br>
+            <lable for = "description">Description</lable><br>
+                <textarea id = "description" type = "text" cols = "40" rows = "3" name = "description"></textarea>
+            <br>
+            <lable for = "date">Date</lable>
+                <input id = "date-time" type = "datetime-local" name = "event_date_time">
+            <br>
+            <lable for = "location">Location</lable><br>
+                <input id = "location" type = "text" name = "eventLocation">
+        <button id = "scheduleEvent" type = "submit">Schedule Event</button>
+        </fieldset>
+    </form>
+
+    <div id ="events"></div>
+
+    <!--<section class = "container">
+        <div class = "content-grid">
+            <div class = "card">
+
+                <div class = "card-header">
+                    <h1>Name</h1>
+                    </div>
+
+                    <div class = "card-body">
+                        
+                    </div>
+
+                     <div class = "card-footer">
+                    <button class = "btn">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    
+
+    <script src = "events.js"></script>
+</body>
+
+</html>
